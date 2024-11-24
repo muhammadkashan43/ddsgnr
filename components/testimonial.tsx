@@ -68,7 +68,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-out" className="w-[362px] h-[321px] border border-black hidden sm:block">
+        <div data-aos="fade-out" className="w-[362px] h-[321px] overflow-hidden border border-black hidden sm:block">
           <div className="ml-4 flex flex-col gap-8">
             <div className="flex flex-row mt-8">
               <svg
@@ -127,7 +127,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" className="w-[362px] h-[321px] border border-black hidden md:block">
+        <div data-aos="fade-right" className="w-[362px] h-[321px] overflow-hidden border border-black hidden md:block">
           <div className="ml-4 flex flex-col gap-8">
             <div className="flex flex-row mt-8">
               <svg
