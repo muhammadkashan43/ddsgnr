@@ -14,7 +14,7 @@ const Courses = () => {
         <h5 data-aos="fade-left">Best price</h5>
       </div>
       <div className="flex flex-row flex-wrap gap-4 justify-center">
-        <div data-aos="fade-left" className="h-[534px] w-[400px] rounded-lg bg-[#F7F7F7] ">
+        <div data-aos="fade-left" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] ">
           <div className="rounded-lg">
             <Image
               src={"/images/Image4.png"}
@@ -55,7 +55,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left" className="h-[534px] w-[400px] rounded-lg bg-[#F7F7F7] ">
+        <div data-aos="fade-left" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] ">
           <div className="rounded-lg">
             <Image
               src={"/images/Image3.png"}
@@ -96,7 +96,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left" className="h-[534px] w-[400px] rounded-lg bg-[#F7F7F7] ">
+        <div data-aos="fade-left" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] ">
           <div className="rounded-lg">
             <Image
               src={"/images/Image2.png"}
@@ -139,7 +139,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" className="h-[534px] w-[400px] rounded-lg bg-[#F7F7F7] hidden sm:block ">
+        <div data-aos="fade-right" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] hidden sm:block ">
           <div className="rounded-lg">
             <Image
               src={"/images/Image5.png"}
@@ -180,7 +180,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" className="h-[534px] w-[400px] rounded-lg bg-[#F7F7F7] hidden sm:block">
+        <div data-aos="fade-right" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] hidden sm:block">
           <div className="rounded-lg">
             <Image
               src={"/images/Image6.png"}
@@ -221,7 +221,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" className="h-[534px] w-[400px] rounded-lg bg-[#F7F7F7] hidden sm:block">
+        <div data-aos="fade-right" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] hidden sm:block">
           <div className="rounded-lg">
             <Image
               src={"/images/Image7.png"}
