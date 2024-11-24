@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Roboto } from "next/font/google";
 
-export const font = Roboto({
+// Correctly define and use the font
+const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400"], // Example of multiple weights
 });
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased`}>{children}</body>
+      <body className={`${roboto.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,13 +1,13 @@
 'use client'
 import Image from "next/image";
 import React, { useEffect } from "react";
-import AOS from 'aos';
+import Aos from "aos";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 
 const Main = () => {
   useEffect(()=>{
-    AOS.init({
+    Aos.init({
       duration:1000,
       easing:"ease-in-out",
       mirror:false,
@@ -40,7 +40,7 @@ const Main = () => {
           <Image
             src="/images/Image1.png"
             alt="Learning Image"
-            layout="fill"
+            fill
             className="object-contain"
           />
         </div>

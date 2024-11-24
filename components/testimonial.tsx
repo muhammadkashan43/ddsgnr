@@ -49,9 +49,9 @@ const Testimonial = () => {
               </svg>
             </div>
             <p className="w-[330px]">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Suscipit, atque culpa. Modi tempore ipsum numquam minus atque.
-              Neque, vero voluptas."
+              Neque, vero voluptas.&quot;
             </p>
             <div className="flex flex-row gap-3">
               <Image
@@ -108,9 +108,9 @@ const Testimonial = () => {
               </svg>
             </div>
             <p className="w-[330px]">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Suscipit, atque culpa. Modi tempore ipsum numquam minus atque.
-              Neque, vero voluptas."
+              Neque, vero voluptas.&quot;
             </p>
             <div className="flex flex-row gap-3">
               <Image
@@ -167,9 +167,9 @@ const Testimonial = () => {
               </svg>
             </div>
             <p className="w-[330px]">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Suscipit, atque culpa. Modi tempore ipsum numquam minus atque.
-              Neque, vero voluptas."
+              Neque, vero voluptas.&quot;
             </p>
             <div className="flex flex-row gap-3">
               <Image
