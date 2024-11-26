@@ -12,20 +12,18 @@ const Navbar = () => {
 
   return (
     <>
-      {/* First Div (Contact Info Section) */}
-      <div data-aos="zoom-in"
-        className={
-          ` max-w-[1260px] h-[54px] bg-[#F7F7F7] border-black border-b-[1px] sm:block hidden`
-        }
+      <div
+        data-aos="zoom-in"
+        className={`hidden h-[54px] max-w-[1260px] border-b-[1px] border-black bg-[#F7F7F7] sm:block`}
       >
-        <div className="flex max-w-[90%] m-auto py-[12px] h-[54px]">
-          <div className={`flex gap-8 items-center flex-wrap`}>
+        <div className="m-auto flex h-[54px] max-w-[90%] py-[12px]">
+          <div className={`flex flex-wrap items-center gap-8`}>
             <p className="text-sm">Phone Number: 956 742 455 678</p>
-            <span className="border border-[#676767] h-7"></span>
+            <span className="h-7 border border-[#676767]"></span>
             <p className="text-sm">Email: info@ddsgnr.com</p>
           </div>
 
-          <div className="flex h-[24px] w-[132px] gap-3 items-center ml-auto flex-wrap justify-end">
+          <div className="ml-auto flex h-[24px] w-[132px] flex-wrap items-center justify-end gap-3">
             {/* Icons */}
             <i>
               <svg
@@ -79,77 +77,80 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div data-aos="zoom-in" className="sm:mt-3 max-w-[1260px] h-[74px] bg-[#F7F7F7] border-black border-b-[1px] flex items-center justify-center">
-        <div className="py-[12px] h-[44px] flex items-center justify-between w-[90%]">
+      <div
+        data-aos="zoom-in"
+        className="flex h-[74px] max-w-[1260px] items-center justify-center border-b-[1px] border-black bg-[#F7F7F7] sm:mt-3"
+      >
+        <div className="flex h-[44px] w-[90%] items-center justify-between py-[12px]">
           {/* Logo Section */}
           <div className="flex items-center justify-start">
             <Image src="/images/logo.png" alt="logo" height={40} width={130} />
           </div>
 
           {/* Desktop Navigation Links (hidden on mobile/tablet) */}
-          <div className="hidden lg:flex gap-6 items-center h-[40px] px-2 rounded-lg ">
-            <Link href="#" className="relative group">
+          <div className="hidden h-[40px] items-center gap-6 rounded-lg px-2 lg:flex">
+            <Link href="#" className="group relative">
               Home
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
-            <Link href="#" className="relative group">
+            <Link href="#" className="group relative">
               Courses
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
-            <Link href="#" className="relative group">
+            <Link href="#" className="group relative">
               Services
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
-            <Link href="#" className="relative group">
+            <Link href="#" className="group relative">
               Achievement
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
-            <Link href="#" className="relative group">
+            <Link href="#" className="group relative">
               About Us
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
-            <Link href="#" className="relative group">
+            <Link href="#" className="group relative">
               Testimonial
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
 
-            <button className="border-black h-[40px] rounded-lg w-20 border ">
+            <button className="h-[40px] w-20 rounded-lg border border-black">
               Login
             </button>
-            <button className="bg-black h-[40px] w-24 text-white rounded-lg hover:text-black hover:bg-[#0df2c2] transition-all hover:transition-all">
+            <button className="h-[40px] w-24 rounded-lg bg-black text-white transition-all hover:bg-[#0df2c2] hover:text-black hover:transition-all">
               Sign Up
             </button>
           </div>
 
           {/* Hamburger Menu for Mobile/Tablet */}
           <div
-            className="lg:hidden cursor-pointer relative"
+            className="relative cursor-pointer lg:hidden"
             onClick={toggleMenu}
           >
             <div
-              className={`relative w-8 h-6 flex flex-col  justify-between items-center transition-all duration-300 ease-in-out transform ${
+              className={`relative flex h-6 w-8 transform flex-col items-center justify-between transition-all duration-300 ease-in-out ${
                 isMenuOpen ? "rotate-45" : "rotate-0"
               }`}
             >
               {/* Top bar of the hamburger */}
               <div
-                className={`h-1 w-full bg-black rounded-xl transition-all duration-300 ease-in-out transform ${
-                  isMenuOpen ? "rotate-90 translate-y-2" : "rotate-0"
+                className={`h-1 w-full transform rounded-xl bg-black transition-all duration-300 ease-in-out ${
+                  isMenuOpen ? "translate-y-2 rotate-90" : "rotate-0"
                 }`}
               ></div>
 
               {/* Middle bar (hidden when menu is open) */}
               <div
-                className={`h-1 w-full bg-black rounded-xl transition-all duration-300 ease-in-out transform ${
+                className={`h-1 w-full transform rounded-xl bg-black transition-all duration-300 ease-in-out ${
                   isMenuOpen ? "opacity-0" : "opacity-100"
                 }`}
               ></div>
 
               {/* Bottom bar of the hamburger */}
               <div
-                className={`h-1 w-full bg-black rounded-xl transition-all duration-300 ease-in-out transform ${
+                className={`h-1 w-full transform rounded-xl bg-black transition-all duration-300 ease-in-out ${
                   isMenuOpen
-                    ? "rotate-[0.5deg] -translate-y-[12px]"
+                    ? "-translate-y-[12px] rotate-[0.5deg]"
                     : "rotate-0"
                 }`}
               ></div>
@@ -160,74 +161,74 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <ul className="flex flex-col gap-4 mt-8 lg:hidden items-center text-lg">
+        <ul className="mt-8 flex flex-col items-center gap-4 text-lg lg:hidden">
           <li>
-            <Link href="#home" onClick={toggleMenu} className="relative group">
+            <Link href="#home" onClick={toggleMenu} className="group relative">
               Home
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#courses"
               onClick={toggleMenu}
-              className="relative group"
+              className="group relative"
             >
               Courses
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#services"
               onClick={toggleMenu}
-              className="relative group"
+              className="group relative"
             >
               Services
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#achievement"
               onClick={toggleMenu}
-              className="relative group"
+              className="group relative"
             >
               Achievement
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#aboutus"
               onClick={toggleMenu}
-              className="relative group"
+              className="group relative"
             >
               About Us
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#testimonial"
               onClick={toggleMenu}
-              className="relative group"
+              className="group relative"
             >
               Testimonial
-              <span className="absolute right-0 left-[0.5px]  bottom-0  h-[4px] bg-[#0df2c2] transform scale-x-0 rounded-lg group-hover:scale-x-110 origin-center transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-[0.5px] right-0 h-[4px] origin-center scale-x-0 transform rounded-lg bg-[#0df2c2] transition-all duration-300 group-hover:scale-x-110"></span>
             </Link>
           </li>
-          <div className="flex justify-between w-48 mt-3">
+          <div className="mt-3 flex w-48 justify-between">
             <button
               onClick={toggleMenu}
-              className="border-black h-[40px] rounded-lg w-20 border "
+              className="h-[40px] w-20 rounded-lg border border-black"
             >
               Login
             </button>
 
             <button
               onClick={toggleMenu}
-              className="bg-black h-[40px] w-24 text-white rounded-lg hover:text-black hover:bg-[#0df2c2] transition-all hover:transition-all"
+              className="h-[40px] w-24 rounded-lg bg-black text-white transition-all hover:bg-[#0df2c2] hover:text-black hover:transition-all"
             >
               Sign Up
             </button>

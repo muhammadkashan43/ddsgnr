@@ -14,7 +14,7 @@ const Main = () => {
     });
   },[]);
   return (
-    <div className="max-w-[1280px] max-h-[700px] flex flex-col lg:flex-row bg-white sm:flex-row ">
+    <div className="max-w-[1280px] overflow-hidden max-h-[700px] flex flex-col lg:flex-row bg-white sm:flex-row ">
       {/* Left Section */}
       <section className="lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left justify-center px-9 lg:px-12 py-16 lg:py-20 gap-6 lg:gap-10">
         <h1 data-aos="zoom-in" className="text-3xl lg:text-5xl font-bold leading-tight">

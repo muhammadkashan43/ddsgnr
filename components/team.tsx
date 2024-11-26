@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Team = () => {
   return (
-    <div className="max-w-[1280px] flex mt-20 flex-col bg-[#F7F7F7]">
+    <div className="max-w-[1280px] overflow-hidden flex mt-20 flex-col bg-[#F7F7F7]">
       <div data-aos="fade-out" className="flex flex-col text-center gap-4 mt-20">
         <h2 className="md:text-[48px] text-[30px] font-bold ">Our team</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>

@@ -2,13 +2,14 @@ import React from "react";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className="max-w-[1260px] flex justify-center items-center mt-28 ">
-      <div className="xl:w-[1120px] sm:w-[90%]">
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center">
-          <div data-aos="fade-left" className="flex flex-col items-center gap-4 sm:gap-0 sm:items-start">
+    <div className="max-w-[1260px] overflow-hidden flex justify-center items-center mt-28 ">
+      <div className="xl:w-[1120px]  sm:w-[90%]">
+        <div className="flex flex-col overflow-hidden sm:flex-row sm:justify-between items-center">
+          <div data-aos="fade-left" className="flex flex-col overflow-hidden items-center gap-4 sm:gap-0 sm:items-start">
             <h5 className="font-semibold text-lg">
               Subscribe to our newsletter
             </h5>
+
             <p className="font-normal text-base w-[287px] sm:w-full">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>

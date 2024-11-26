@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Courses = () => {
   return (
-    <div className="flex flex-col gap-9 mt-20 max-w-[1280px] items-center text-center">
+    <div className="flex flex-col gap-9 mt-20 max-w-[1280px] overflow-hidden items-center text-center">
       <div data-aos="fade-out" className="flex flex-col gap-6">
         <h2 className="font-bold text-[32px] md:text-[56px] ">Courses</h2>
         <p className="text-[18px] sm:text-[18px]">Your Ultimate Guide</p>
@@ -13,7 +13,7 @@ const Courses = () => {
         <h5 data-aos="fade-out">Recommended</h5>
         <h5 data-aos="fade-left">Best price</h5>
       </div>
-      <div className="flex flex-row flex-wrap gap-4 justify-center">
+      <div className="flex flex-row flex-wrap gap-4 overflow-hidden justify-center">
         <div data-aos="fade-left" className="h-[534px] w-[400px] overflow-hidden rounded-lg bg-[#F7F7F7] ">
           <div className="rounded-lg">
             <Image
